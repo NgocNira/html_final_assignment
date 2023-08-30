@@ -1,0 +1,132 @@
+.background {
+  position: relative;
+  top: 50px;
+  left: 150px;
+  width: 1600px;
+  height: 997px;
+  background-image:  
+  linear-gradient(to top right, rgba(8, 24, 60, 1) 60%,  rgba(242, 71, 21, 1) 150%);
+  overflow: hidden;
+}
+
+.ellipse1 {
+  position: absolute;
+  top: -226px;
+  left: 1416px;
+  width: 428px;
+  height: 428px;
+  background-color: rgba(240, 70, 20, 1);
+  border-radius: 200px;
+  
+}
+
+.rectangle2 {
+  position: absolute;
+  top: 77px;
+  left: 1027px;
+  z-index: 1;
+}
+
+.image2 {
+  width: 497px;
+  height: 920px;
+}
+.rectangle1 {
+  position: absolute;
+  top: 232px;
+  left: 830px;
+  z-index: 2;
+}
+
+.image1 {
+  width: 497px;
+  height: 765px;
+}
+
+.rectangle3 {
+  position: absolute;
+  top: 378px;
+  left: 710px;
+  z-index: 3;
+}
+
+.image3 {
+  width: 497px;
+  height: 620px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 553px;
+  height: 648px;
+  top: 156px;
+  left: 155px;
+}
+
+.heading {
+  position: absolute;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text {
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  top: 253px;
+  width: 460px;
+  line-height: 44.22px;
+}
+
+.page {
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  top: 374px;
+
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(242, 71, 21, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  padding: 27px 44px 27px 44px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 1);
+  font-size: 33px;
+  font-weight: 500;
+  font-family: Inter;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 878px;
+  left: -157px;
+  width: 428px;
+  height: 428px;
+  background-color: rgba(240, 70, 20, 1);
+  border-radius: 300px;
+  z-index: 1;
+  
+}
+
+.ellipse3 {
+  position: absolute;
+  top: 862px;
+  left: -150px;
+  width: 428px;
+  height: 428px;
+  border-radius: 300px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  
+}
